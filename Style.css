@@ -1,0 +1,37 @@
+html{
+    font-family: 'Source Code Pro', monospace; 
+}
+
+nav ul li {
+    margin-left: 150px;
+}
+
+nav ul li a{
+    color: red;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 55px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.progress{
+    width: 600px;
+    text-align: center;
+    
+}
+
+#title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#WebsiteDescription{
+    padding-bottom: 10px;
+}
+
+#HomeBtn:hover{
+    opacity: 100%;
+}

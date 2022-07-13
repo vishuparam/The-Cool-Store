@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Source+Code+Pro&display=swap" rel="stylesheet">
+<title>The Cool Store</title>
+</head>
+<body style="font-family: 'Source Code Pro', monospace;">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top" style="margin-left: 20px; margin: 10px; padding: 22px; top: 0px; width: 99%; z-index: 99999; border-radius: 15px; opacity: 92%; text-align: center; box-shadow: 30px; font-family: 'Source Code Pro', monospace;" id="NavigationBar">
+    <div class="container navbar-fixed-top ">
+        <a class="navbar-brand" href="#" style="margin-right: -120px;"> <span><ion-icon name="pricetags" style="font-size: 18px; font-family: monospace; margin-left: -200px;"></ion-icon></span>Cool Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 50px;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item navbar-right">
+                <a class="nav-link active" aria-current="page" href="#ShoesSection" style="font-size: 20px; margin-left: -5px;">Shoes</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav mb-2 mb-lg-0 ">
+                <li class="nav-item navbar-right">
+                    <a class="nav-link active" aria-current="page" href="#ClothingSection" style="font-size: 20px; margin-left: -5px;">Clothing</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav mb-2 mb-lg-0 ">
+                <li class="nav-item navbar-right">
+                    <a class="nav-link active" aria-current="page" href="#WatchesSection" style="font-size: 20px; margin-left: -5px;">Watches</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav mb-2 mb-lg-0 ">
+                <li class="nav-item navbar-right">
+                    <a class="nav-link active" aria-current="page" href="#LaptopSection" style="font-size: 20px; margin-left: -5px;">Laptops</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav mb-2 mb-lg-0 ">
+                <li class="nav-item navbar-right">
+                    <a class="nav-link active" aria-current="page" href="#SpinnerSection" style="font-size: 20px; margin-left: 5px;">Fidgit Spinners</a>
+                </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Fake Search" aria-label="Search" style="width: 200px; margin-left: 50px">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>    
+        </div>
+    </div>
+    </nav>
+
+    <div>
+        <h1 id="title" style="font-family: 'Source Code Pro', monospace;"><b>Welcome to Cool Store!</b></h1>
+        <h2 id="WebsiteDescription" style="font-family: 'Source Code Pro', monospace;">Cool Store is the most reliable store on the internet!</h2>
+    </div>
+
+    <div class="progress" style="width: 55%; margin-left: 430px; height: 30px; font-family: 'Source Code Pro', monospace;">
+        <div class="progress-bar" role="progressbar" style="width: 65%; text-align: center; font-size: 20px;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">2, 354, 324 People Using</div>
+    </div>
+
+    <section class="row" style="padding: 50px; margin-top: 40px; background-color: darkgray; border-radius: 40px; width: 98%; margin-left: 20px;" id="ShoesSection">
+        <div style="border-radius: 40px;">
+            <div>
+                <h1 id="ShoesTitle">
+                    <span><ion-icon name="footsteps-outline"></ion-icon></span>
+                    Shoes
+                </h1>
+                <h2 id="ShoesSubtitle" style="font-size: 30px;">Choose and buy your favorite shoes here.</h2>
+            </div>
+
+                <div class="row my-5 colomn align-text-center justify-content-center" style="margin-left: 20px;">
+                    <div class="col-8 col-lg-4" style="margin-top: 40px;">
+                        <div class="card border-3 border-danger">
+                            <div class="card-body text-center">
+                                <h3 class="card-title" style="color: #0275d8;"><ion-icon name="football-outline"></ion-icon>Soccer Shoes</h3>
+                                <h5 style="color: #0275d8">This pair of Addidas shoes are used for playing soccer. There cleats! They have lots of grip, holding you even at the trippies of kicks. They are tightly fit shoes, so there is no chance that it will come off while you play a match. They are also made out of great quality.</h5>
+                                <img src="https://m.media-amazon.com/images/I/719X1Ujl5+L._AC_UX575_.jpg" style="width: 400px; text-align: center; padding: 50px;" class="ProductImage">
+                                <br>
+                                <span style="font-size: xx-large;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-half" color="warning"></ion-icon></span>
+                                <p style="font-size: 60px; font-weight: 900; color: #0275d8;">$48.OO</p>
+                                <a href="https://www.amazon.com/adidas-Predator-Freak-Ground-Black/dp/B087BKQ635/ref=sr_1_6?crid=3RA7SVDV18WAV&keywords=soccer%2Bshoes%2Bfor%2Bboys&qid=1656620971&sprefix=soccer%2Bshoes%2Bfor%2Bboys%2Caps%2C202&sr=8-6&th=1&psc=1" target="_blank">
+                                    <button type="button" class="btn btn-outline-primary btn-lg">Buy Now</button>
+                                </a>
+                                <p class="text-danger" style="margin-top: 1pc;">7 Left in Stock - Order Soon</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10 col-lg-4">
+                        <div class="card border-3 border-danger">
+                            <div class="card-body text-center">
+                                <!-- <div class="card-header text-center" style="padding: 50px; background-color: lightgray; color: red; font-size: 20px;">Most Popular</div> -->
+                                <div style="padding: 50px; background-color: lightgray; border-radius: 7px; font-size: 20px; color: red;">
+                                    Most Popular
+                                </div>
+                                <br>
+                                <h3 class="card-title" style="color: red"><ion-icon name="tennisball-outline"></ion-icon>Tennis Shoes</h3>
+                                <h5 style="color: red">This pair of Addidas shoes are used for playing Tennis. They have lots of grip, holding you while you run around. They are made out of great materials. Also, they are bit a free so that you can move your legs, and that's what you do in Tennis.</h5>
+                                <img src="https://m.media-amazon.com/images/I/71o4RFt3aiL._AC_UX575_.jpg" style="width: 400px; text-align: center; padding: 50px;" class="ProductImage"><br>
+                                <span style="font-size: xx-large; color: gold;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon></span>
+                                <p style="font-size: 60px; font-weight: 900; color: red;">$7O.OO</p>
+                                <a href="https://www.amazon.com/adidas-Barricade-Tennis-White-Unisex/dp/B091MWWNL4/ref=sr_1_5?crid=3DJNJ2O9BBYTQ&keywords=tennis%2Bshoes%2Bboys&qid=1656618313&sprefix=tennis%2Bshoes%2Bboys%2Caps%2C169&sr=8-5&th=1&psc=1" target="_blank">
+                                    <button type="button" class="btn btn-outline-danger btn-lg">Buy Now</button>
+                                </a>
+                                <p class="text-danger" style="margin-top: 1pc;">13 Left in Stock - Order Soon</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-8 col-lg-4" style="margin-top: 100px;">
+                        <div class="card border-0 border">
+                            <div class="card-body text-center">
+                                <h3 class="card-title" style="color: green"><ion-icon name="basketball-outline"></ion-icon> Basketball Shoes</h3>
+                                <h5 style="color: green">This pair of Nike shoes are used for playing Basketball. They have great grip, also, the air bubbles at the back of the sole help you have a comfortable landing when you jump, and you jump a lot in basketball!</h5>
+                                <img src="https://m.media-amazon.com/images/I/61upNV+U3xL._AC_SY575._SX._UX._SY._UY_.jpg" style="width: 400px; text-align: center; padding: 50px;" class="ProductImage"><br>
+                                <span style="font-size: xx-large; color: gold;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-outline" color="warning"></ion-icon></span>
+                                <p style="font-size: 60px; font-weight: 900; color: green;">$1O7.1O</p>
+                                <a href="https://www.amazon.com/Nike-Basketball-Limited-CW2760-009-Numeric_6_Point_5/dp/B08LSFBGSP/ref=sr_1_16?crid=UA7DJGQ0YW6O&keywords=basketball%2Bshoes%2Bfor%2Bboys&qid=1656445807&sprefix=basketball%2Bshoes%2Bfor%2Bboys%2Caps%2C104&sr=8-16&th=1&psc=1" target="_blank">
+                                    <button type="button" class="btn btn-outline-success btn-lg">Buy Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+
+
+<!-- End of Shoe Section -->
+<!-- Start of Clothing Section -->
+
+
+
+    <section class="row" style="padding: 50px; margin-top: 40px; background-color: darkgray; border-radius: 40px; width: 98%; margin-left: 20px;" id="ClothingSection">
+        <div style="border-radius: 40px;">
+            <div>
+                <h1 id="ClothingsTitle">
+                    <span><ion-icon name="shirt-outline"></ion-icon></span>
+                    Clothing
+                </h1>
+                <h2 id="ShoesSubtitle" style="font-size: 30px;">Choose and buy your favorite clothes here.</h2>
+            </div>
+
+            <div class="row my-5 colomn align-text-center justify-content-center" style="margin-left: 20px;">
+                <div class="col-8 col-lg-4" style="margin-top: 40px;">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <h3 class="card-title" style="color: #0275d8;"><ion-icon name="shirt-outline"></ion-icon>Shirts</h3>
+                            <h5 style="color: #0275d8">This Adidas shirt is a sport shirt, easily absorbing sweat, and it also takes in water and most liquids. It's perfect for playing sports!</h5>
+                            <img src="https://m.media-amazon.com/images/I/81DAaOju76L._AC_UX569_.jpg" style="width: 400px; text-align: center; padding: 50px;" class="ProductImage">
+                            <br>
+                            <span style="font-size: xx-large;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-half" color="warning"></ion-icon></span>
+                            <p style="font-size: 60px; font-weight: 900; color: #0275d8;">$13.2O</p>
+                            <a href="https://www.amazon.com/adidas-Sleeve-AEROREADY-Collegiate-Heather/dp/B09LRLHCLR/ref=sr_1_15?crid=1LWDGUOP49VC&keywords=shirts+for+boys&qid=1656611142&sprefix=shirts+for+boys%2Caps%2C124&sr=8-15" target="_blank">
+                                <button type="button" class="btn btn-outline-primary btn-lg">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 col-lg-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <!-- <div class="card-header text-center" style="padding: 50px; background-color: lightgray; color: red; font-size: 20px;">Most Popular</div> -->
+                            <div style="padding: 50px; background-color: lightgray; border-radius: 7px; font-size: 20px; color: red;">
+                                Most Popular
+                            </div>
+                            <br>
+                            <h3 class="card-title" style="color: red">Caps</h3>
+                            <h5 style="color: red">This Adidas cap is thick, blocking lots of sunlight and keeping your head cool on a hot summer day. It is also compatable with sweat, making it a perfect thing to wear while playing sports.</h5>
+                            <img src="https://m.media-amazon.com/images/I/91KxlxsnhkS._AC_SX569._SX._UX._SY._UY_.jpg" style="width: 400px; text-align: center; padding: 50px;" class="ProductImage"><br>
+                            <span style="font-size: xx-large; color: gold;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-outline" color="warning"></ion-icon></span>
+                            <p style="font-size: 60px; font-weight: 900; color: red;">$16.OO</p>
+                            <a href="https://www.amazon.com/adidas-Girls-Decision-Structured-Adjustable/dp/B091F6NQ14/ref=sr_1_13?keywords=caps%2Bfor%2Bboys&qid=1656725912&sr=8-13&th=1&psc=1" target="_blank">
+                                <button type="button" class="btn btn-outline-danger btn-lg">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-8 col-lg-4" style="margin-top: 70px;">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <h3 class="card-title" style="color: green">Shorts</h3>
+                            <h5 style="color: green">This Under Armour short is a sport short. It is mostly made out of polyster, absorbing most liquids, which makes it perfect for playing sports.</h5>
+                            <img src="https://m.media-amazon.com/images/I/71yZqjtfCLL._AC_UX569_.jpg" style="width: 400px; text-align: center; padding: 50px;" class="ProductImage"><br>
+                            <span style="font-size: xx-large; color: gold;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-outline" color="warning"></ion-icon><ion-icon name="star-outline" color="warning"></ion-icon></span>
+                            <p style="font-size: 60px; font-weight: 900; color: green;">$18.OO</p>
+                            <a href="https://www.amazon.com/Under-Armour-Golazo-Shorts-White/dp/B093MD1WHT/ref=sr_1_11?crid=UGD9V3JOXN55&keywords=shorts%2Bfor%2Bboys&qid=1656553980&sprefix=shorts%2Bfor%2Bboy%2Caps%2C113&sr=8-11&th=1&psc=1" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- End of Clothing Section -->
+    <!-- Start of Watches section -->
+
+
+
+
+
+
+    <section class="row" style="padding: 50px; margin-top: 40px; background-color: darkgray; border-radius: 40px; width: 98%; margin-left: 20px; z-index: 50;" id="WatchesSection">
+        <div style="border-radius: 40px;">
+            <div>
+                <h1 id="WatchesTitle">
+                    <span><ion-icon name="watch-outline"></ion-icon></span>
+                    Watches
+                </h1>
+                <h2 id="ShoesSubtitle" style="font-size: 30px;">Choose and buy your favorite watches here.</h2>
+            </div>
+
+            <div class="row my-5 colomn align-text-center justify-content-center">
+                <div class="col-8 col-lg-4" style="margin-top: 60px;">
+                    <div class="card border-3 border-danger">
+                        <div class="card-body text-center">
+                            <h3 class="card-title" style="color: #0275d8;"><ion-icon name="watch-outline"></ion-icon>Apple Watch</h3>
+                            <h5 style="color: #0275d8">This apple watch has many features, and it is great quality. Some of these are heartbeat tracker, how many steps did you take in a day, and many others! It's great if you are into fitness.</h5>
+                            <img src="https://m.media-amazon.com/images/I/71gg8mPlAuL._AC_SX522_.jpg" style="width: 400px; text-align: center; padding: 50px;" class="ProductImage">
+                            <br>
+                            <span style="font-size: xx-large;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-outline" color="warning"></ion-icon></span>
+                            <p style="font-size: 60px; font-weight: 900; color: #0275d8;">$3O9</p>
+                            <a href="https://www.amazon.com/Apple-Watch-Midnight-Aluminum-Sport/dp/B09HF6XBPF/ref=sr_1_4?keywords=apple%2Bwatch&qid=1656558950&sprefix=apple%2Caps%2C107&sr=8-4&th=1" target="_blank">
+                                <button type="button" class="btn btn-outline-primary btn-lg">Buy Now</button>
+                            </a>
+                            <p class="text-danger" style="margin-top: 1pc;">4 Left in Stock - ORDER SOON</p>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col-10 col-lg-4">
+                    <div class="card border-0 opacity-50">
+                        <div class="card-body text-center">
+                            <!-- <div class="card-header text-center" style="padding: 50px; background-color: lightgray; color: red; font-size: 20px;">Most Popular</div> -->
+                            <div style="padding: 50px; background-color: lightgray; border-radius: 7px; font-size: 20px; color: red;">
+                                Most Popular
+                            </div>
+                            <br>
+                            <h3 class="card-title" style="color: red"><ion-icon name="watch-outline"></ion-icon>Basic Watch</h3>
+                            <h5 style="color: red">This watch is very cheap, but with simple and good features, there is a light, multiple modes, it also shows the day of the week and the date. It is a watch where you can wear when you go out for shopping, a birthday part, or to a park.</h5>
+                            <img src="https://m.media-amazon.com/images/I/511IrlZtuLL._AC_UX679_.jpg" style="width: 400px; text-align: center; padding: 50px;" class="ProductImage"><br>
+                            <span style="font-size: xx-large; color: gold;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-half" color="warning"></ion-icon></span>
+                            <p style="font-size: 60px; font-weight: 900; color: red;">$8.99</p>
+                            <!-- <a href="https://www.amazon.com/Waterproof-Multifunctional-Wristwatch-Stopwatch-Anniversary/dp/B09SNYJQZH/ref=sr_1_18?crid=3V9U67ORHW6RT&keywords=watches&qid=1656793758&refinements=p_36%3A-1000&rnid=2661611011&sprefix=watches%2Caps%2C149&sr=8-18" target="_blank"> -->
+                                <button type="button" class="btn btn-outline-danger btn-lg" disabled="disabled">Buy Now</button>
+                            </a>
+                            <p class="text-danger" style="margin-top: 1pc;">OUT OF STOCK</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-8 col-lg-4" style="margin-top: 10px;">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <h3 class="card-title" style="color: green"><ion-icon name="watch-outline"></ion-icon>Pro Watch</h3>
+                            <h5 style="color: green">This is a very quality watch, it has lots of features. There is sunset and sunrise, moon phases, alarm, and it is a solar watch, meaning that it will get energy from the sun. It has many others features, too. It is mainly used for outside activity, like when you go to a hike.</h5>
+                            <img src="https://m.media-amazon.com/images/I/71FekB-H1fL._AC_SX522_.jpg" style="width: 400px; text-align: center; padding: 50px;" class="ProductImage"><br>
+                            <span style="font-size: xx-large; color: gold;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-outline" color="warning"></ion-icon></span>
+                            <p style="font-size: 60px; font-weight: 900; color: green;">$33O.OO</p>
+                            <a href="https://www.amazon.com/Casio-Protrek-Multi-Band-PRW2500R-1CR/dp/B005OVCF8U/ref=sr_1_19?crid=13HWPH3M3ZMP6&keywords=watches&qid=1656558901&refinements=p_36%3A2661615011&rnid=2661611011&s=apparel&sprefix=watches%2Caps%2C117&sr=1-19" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg">Buy Now</button>
+                            </a>
+                            <p class="text-danger" style="margin-top: 1pc;">17 Left in Stock - ORDER SOON</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section> 
+
+
+
+
+<!-- End of Watches Section -->
+<!-- Start of Laptop Section -->
+
+
+<button type="button" class="btn btn-outline-light"
+style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+Congratulations! You have found the Discount Code! Code: Fake_Code
+</button>
+
+
+    <section class="row" style="padding: 50px; margin-top: 40px; background-color: darkgray; border-radius: 40px; width: 98%; margin-left: 20px;" id="LaptopSection">
+        <div style="border-radius: 40px;">
+            <div>
+                <h1 id="ClothingsTitle">
+                    <ion-icon name="laptop-outline"></ion-icon>
+                    Laptops
+                </h1>
+                <h2 id="ShoesSubtitle" style="font-size: 30px;">Choose and buy your favorite Laptops here.</h2>
+            </div>
+
+            <div class="row my-5 colomn align-text-center justify-content-center" style="margin-left: 20px;">
+                <div class="col-8 col-lg-4" style="margin-top: 150px;">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <h3 class="card-title" style="color: #0275d8;"><ion-icon name="laptop-outline"></ion-icon> Mac</h3>
+                            <h5 style="color: #0275d8">This MacBook Pro is a compatable laptop that is very fast. Details:- 
+                                Brand: Apple;
+                                Model Name: MacBook Pro;
+                                Screen Size: 13.3 Inches;
+                                Color: Space Gray;
+                                Hard Disk Size: 256 GB;
+                                Ram: 8 GB;
+                                Graphics Card Description: Integrated;
+                                Graphics Coprocessor: Apple M2</h5>
+                            <img src="https://m.media-amazon.com/images/I/61L5QgPvgqL._AC_SX522_.jpg" style="width: 500px; text-align: center; padding: 50px;" class="ProductImage">
+                            <br>
+                            <span style="font-size: xx-large;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-half" color="warning"></ion-icon><ion-icon name="star-outline" color="warning"></ion-icon></span>
+                            <p style="font-size: 60px; font-weight: 900; color: #0275d8;">$1,298.95</p>
+                            <a href="https://www.amazon.com/2022-Apple-MacBook-Laptop-chip/dp/B0B3C57XLR/ref=sr_1_3?crid=PWRT2UK6Q0F6&keywords=macbook&qid=1657726474&sprefix=mac%2Caps%2C149&sr=8-3" target="_blank">
+                                <button type="button" class="btn btn-outline-primary btn-lg">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 col-lg-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <!-- <div class="card-header text-center" style="padding: 50px; background-color: lightgray; color: red; font-size: 20px;">Most Popular</div> -->
+                            <div style="padding: 50px; background-color: lightgray; border-radius: 7px; font-size: 20px; color: red;">
+                                Most Popular
+                            </div>
+                            <br>
+                            <h3 class="card-title" style="color: red"><ion-icon name="laptop-outline"></ion-icon> Regular Laptops</h3>
+                            <h5 style="color: red">This laptop is a laptop that is used for normal uses like attending classes, doing work, shopping online, etc. Details:-
+                                Brand: HP;
+                                Series: HP Laptop 17-cn0025nr;
+                                Screen Size: 17.3 Inches;
+                                Color: Natural silver;
+                                Hard Disk Size: 256 GB;
+                                CPU Model: Intel Core i5-1135G7;
+                                Ram: 8 GB;
+                                Operating System: Windows 11 Home;
+                                Card Description: Integrated</h5>
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/71jaN6-46OL.__AC_SX300_SY300_QL70_FMwebp_.jpg" style="width: 500px; text-align: center; padding: 50px;" class="ProductImage"><br>
+                            <span style="font-size: xx-large; color: gold;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-half" color="warning"></ion-icon></span>
+                            <p style="font-size: 60px; font-weight: 900; color: red;">$498</p>
+                            <a href="https://www.amazon.com/HP-Generation-i5-1135G7-Graphics-17-cn0025nr/dp/B09FXLRBFQ/ref=sr_1_20?keywords=windows+11+laptop&qid=1657726789&sprefix=windows+%2Caps%2C122&sr=8-20" target="_blank">
+                                <button type="button" class="btn btn-outline-danger btn-lg">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-8 col-lg-4" style="margin-top: 100px;">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <h3 class="card-title" style="color: green"><ion-icon name="desktop-outline"></ion-icon> Gaming Laptop</h3>
+                            <h5 style="color: green">This laptop is used for gaming. Details:-
+                                Brand; Acer;
+                                Series: AN515-57-79TD;
+                                Screen Size: 15.6 Inches;
+                                Color: Black;
+                                CPU Model: Intel Core i7;
+                                Ram: 8 GB;
+                                Operating System: Windows 11 Home;
+                                Card Description: Dedicated;
+                                CPU Speed: 4.6 GHz;
+                                Hard Disk Description: SSD;</h5>
+                            <img src="https://m.media-amazon.com/images/I/81lDOtJRTkL._AC_SX522_.jpg" style="width: 500px; text-align: center; padding: 50px;" class="ProductImage"><br>
+                            <span style="font-size: xx-large; color: gold;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-outline" color="warning"></ion-icon></span>
+                            <p style="font-size: 60px; font-weight: 900; color: green;">$829.99</p>
+                            <a href="https://www.amazon.com/Acer-AN515-57-79TD-i7-11800H-GeForce-Keyboard/dp/B09R65RN43/ref=sr_1_5?keywords=gaming+laptop&qid=1657728811&smid=ATVPDKIKX0DER&sprefix=gaming+la%2Caps%2C121&sr=8-5" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+<!-- End of Laptop Section -->
+<!-- Start of Spinner Section -->
+
+
+
+    <section class="row" style="padding: 50px; margin-top: 40px; background-color: darkgray; border-radius: 40px; width: 98%; margin-left: 20px;" id="SpinnerSection">
+        <div style="border-radius: 40px;">
+            <div>
+                <h1 id="ClothingsTitle">
+                    Fidget Spinners
+                </h1>
+                <h2 id="ShoesSubtitle" style="font-size: 30px;">Choose and buy your favorite Spinners here.</h2>
+            </div>
+
+            <div class="row my-5 colomn align-text-center justify-content-center" style="margin-left: 20px;">
+                <div class="col-8 col-lg-4" style="margin-top: 130px;">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <h3 class="card-title" style="color: #0275d8;">Basic Spinner</h3>
+                            <h5 style="color: #0275d8">This is a simple fidget spinner, this is the solution for the people who are looking for a cheap but quality fidget spinner.</h5>
+                            <img src="https://m.media-amazon.com/images/I/61++BMdwsyL._AC_SX522_.jpg" style="width: 400px; text-align: center; padding: 50px;" class="ProductImage">
+                            <br>
+                            <span style="font-size: xx-large;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-half" color="warning"></ion-icon></span>
+                            <p style="font-size: 60px; font-weight: 900; color: #0275d8;">$7.99</p>
+                            <a href="https://www.amazon.com/ATESSON-Spinner-Durable-Bearing-Spinners/dp/B08HYXP24Q/ref=sr_1_9?keywords=fidget+spinners&qid=1657729548&sprefix=fidget+spi%2Caps%2C133&sr=8-9" target="_blank">
+                                <button type="button" class="btn btn-outline-primary btn-lg">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 col-lg-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <!-- <div class="card-header text-center" style="padding: 50px; background-color: lightgray; color: red; font-size: 20px;">Most Popular</div> -->
+                            <div style="padding: 50px; background-color: lightgray; border-radius: 7px; font-size: 20px; color: red;">
+                                Most Popular
+                            </div>
+                            <br>
+                            <h3 class="card-title" style="color: red">Pro Spinner</h3>
+                            <h5 style="color: red">This fidget spinner is made out of metal, so it is very strong. Its spin time is great. It also has lights which make it look like there is a ring of light around it.</h5>
+                            <img src="https://m.media-amazon.com/images/I/51ijKjjTylL._AC_SX522_.jpg" style="width: 400px; text-align: center; padding: 50px;" class="ProductImage"><br>
+                            <span style="font-size: xx-large; color: gold;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon></span>
+                            <p style="font-size: 60px; font-weight: 900; color: red;">$15.99</p>
+                            <a href="https://www.amazon.com/Spinners-Spinner-Anxiety-Luminous-Release/dp/B07WDNSK5T/ref=pd_rhf_dp_s_crs_dp_rhf_k2p_sccl_2_7/145-8639931-4311709?pd_rd_w=UioxZ&content-id=amzn1.sym.b4b29072-2a46-4040-9ae4-91e4b7e95920&pf_rd_p=b4b29072-2a46-4040-9ae4-91e4b7e95920&pf_rd_r=XB2ZHGT3NS3W0WA5N21K&pd_rd_wg=aqgl1&pd_rd_r=0e812e78-28e2-40f8-bc8f-2fac5ee888e7&pd_rd_i=B07WDNSK5T&th=1" target="_blank">
+                                <button type="button" class="btn btn-outline-danger btn-lg">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-8 col-lg-4" style="margin-top: 70px;">
+                    <div class="card border-0">
+                        <div class="card-body text-center">
+                            <h3 class="card-title" style="color: green">Spinner Pack</h3>
+                            <h5 style="color: green">This pack of 12 Spinners is cheap, but you get greatly detailed and quality spinners.</h5>
+                            <img src="https://m.media-amazon.com/images/I/814WQeNcYIL._AC_SX522_.jpg" style="width: 500px; text-align: center; padding: 50px;" class="ProductImage"><br>
+                            <span style="font-size: xx-large; color: gold;"><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star" color="warning"></ion-icon><ion-icon name="star-half" color="warning"></ion-icon></span>
+                            <p style="font-size: 60px; font-weight: 900; color: green;">$14.99</p>
+                            <a href="https://www.amazon.com/Jawhock-Metal-Looking-Spinner-Reduction-Children/dp/B09SH1YCRL/ref=sr_1_22?keywords=fidget+spinners+bulk&qid=1657730258&s=toys-and-games&sprefix=fidget+spinner%2Ctoys-and-games%2C110&sr=1-22" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg">Buy Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br>
+
+
+
+
+
+    
+    <a href="#html">
+        <div style="position: fixed; bottom: 0; right: calc(50% - 75px); width: 150px; border-radius: 200px; padding: 10px; text-align: center; margin-bottom: 10px; text-align: center; width:150px; opacity: 85%;"
+                    class="align-item-center justify-content-center shadow-lg bg-light">
+          <h2 style="font-size: 20px; text-align: center;">Go Home <ion-icon name="arrow-up-circle-outline" style="font-size: 15px; margin-top: 10px;"></ion-icon></h2>
+        </div>
+    </a>  
+</body>
+</html>
